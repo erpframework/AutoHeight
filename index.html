@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Auto Height</title>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+
+    <div ng-app="Application" class="container">
+    
+        <div class="row">
+          
+          <div class="col-md-4">
+            <div class="fill">
+            <h4>Without Auto Heigth</h4>
+            </div> 
+          </div>
+
+          <div class="col-md-4" >
+            <div class="fill" auto-height data-offset="300">
+              <h4>With Auto Heigth and offset 300px (demo)</h4>
+            </div>
+          </div>
+          <div class="col-md-4" >
+            <div class="fill" auto-height data-offset="40"> 
+              <h4>With Auto Heigth Offset de 40px (padding:20px)</h4>
+
+            </div> 
+            </div>
+
+
+          
+
+
+        </div>
+        
+
+    </div>
+
+    <script src="js/jquery-1.11.0.min.js"></script>
+    <script src="js/autoheight.js"></script>
+    <script src="js/angular.min.js"></script>    
+    <script src="js/app.js"></script>
+
+</body> 	
+
+</html>
